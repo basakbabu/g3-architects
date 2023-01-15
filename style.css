@@ -286,8 +286,7 @@ header{
 /* For Mobile Device Max Width 800px */
 @media only screen and (max-width:800px){
     .container{
-        width: inherit;
-        padding: 20px;
+        width: 300px;
     }
     .header__area{
         flex-direction: column;
