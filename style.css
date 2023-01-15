@@ -255,7 +255,8 @@ header{
 /* Footer Area */
 .footer__text{
     background-color: var(--light-orange);
-    padding: 15px 0;
+    padding: 20px 0;
+    text-align: center;
 }
 .footer__text p{
     color: var(--grey);
