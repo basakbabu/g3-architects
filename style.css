@@ -51,6 +51,7 @@ header{
 .header__right{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 .header__right nav ul{
     display: flex;
