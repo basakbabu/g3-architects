@@ -286,14 +286,19 @@ header{
 /* For Mobile Device Max Width 800px */
 @media only screen and (max-width:800px){
     .container{
-        width: 300px;
+        width: inherit;
+        padding: 20px;
     }
     .header__area{
         flex-direction: column;
         text-align: center;
     }
+    .header__right nav ul li a, .login__info a {
+        padding: 0 10px;
+    }
     .header__right{
         justify-content: center;
+        gap: 10px;
     }
     .header__right nav, .login__info{
         margin-top: 40px;
