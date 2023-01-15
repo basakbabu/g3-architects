@@ -280,3 +280,88 @@ header{
 .footer__text p{
     color: var(--grey);
 }
+
+/* Responsive CSS */
+
+/* For Mobile Device Max Width 800px */
+@media only screen and (max-width:800px){
+    .container{
+        width: 300px;
+    }
+    .header__area{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__right{
+        justify-content: center;
+    }
+    .header__right nav, .login__info{
+        margin-top: 40px;
+    }
+    .banner__text{
+        width: 100%;
+    }
+    .banner__text h1 {
+        font-size: 34px;
+    }
+    .features {
+       flex-direction: column;
+        gap: 0;
+    }
+    .feature__images {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+    .feature__text {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .feature__text h2, .experence__heading h2 {
+        font-size: 30px;
+    }
+    .experence {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    .ex__year {
+        padding: 20px;
+        top: 0;
+        left: 0;
+        display: block;
+        margin-top: 40px;
+    }
+    .ex__year span {
+        font-size: 55px;
+    }
+    .protfolio__image img {
+        height: 100%;
+    }
+    .section__heading{
+        width: 100%;
+        text-align: center;
+    }
+    .fun__fact .section__heading{
+        margin-top: 40%;
+    }
+    .fun__fact_items {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .all__clients {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        margin-top: 50px;
+        justify-items: center;
+    }
+    .contact__us {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .single__fun__fact:hover{
+        transform: scale(1.1);
+    }
+    .footer__text p{
+        padding: 20px;
+        line-height: 26px;
+    }
+}
